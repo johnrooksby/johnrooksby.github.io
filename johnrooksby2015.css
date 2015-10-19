@@ -20,6 +20,10 @@ text-align:center;
 color: #FFF;
 }
 
+h1 a {
+color: #FFFFFF;
+}
+
 h2 {
 font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 font-weight: 300;
@@ -49,10 +53,10 @@ color: #000000;
               p, .p, ul, ol { font-size: 20px;}
               small, .small { font-size: 16px;}
             }
-            
+
             @media screen and (min-width: 640px) {
               h1, .h1 { font-size: 64px; }
-              h2, .h2 { font-size: 48px; } 
+              h2, .h2 { font-size: 48px; }
               h3, .h3 { font-size: 32px; }
             }
 
@@ -75,7 +79,6 @@ margin: 0px 0px 20px 0px;
 font-size: 16px;
 font-weight: 400;
 }
-
 
 a:hover, a:active {
  color: #FF80AB;
@@ -151,13 +154,13 @@ ul.nav a:hover, a:active  {
 
 .navbar-header a:hover, a:active  {
  color: #FFFFFF !important;
- 
+
 }
 
 
 div.address p {
  font-size: 12px;
- font-weight:300; 
+ font-weight:300;
 
 }
 
@@ -183,21 +186,19 @@ text-decoration: none;
 
 
 
-div.feedburnerFeedBlock ul { 
-margin-left:0px; 
-padding-left:0; 
+div.feedburnerFeedBlock ul {
+margin-left:0px;
+padding-left:0;
 list-style-type: none;
 }
 
-div.feedburnerFeedBlock ul li span.headline { 
-font-weight:500; 
-display:block; 
-margin:12px 0 0 0; 
+div.feedburnerFeedBlock ul li span.headline {
+font-weight:500;
+display:block;
+margin:12px 0 0 0;
 }
 
-div.feedBurnerFeedBlock p.feedTitle { 
-background-color: red; 
+div.feedBurnerFeedBlock p.feedTitle {
+background-color: red;
 
 }
-
-
