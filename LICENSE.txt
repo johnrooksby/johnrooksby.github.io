@@ -1,7 +1,3 @@
-Source for johnrooksby.org - the home page of John Rooksby
-
-====================================================
-
 MIT License
 
 Copyright (c) 2016 John Rooksby
