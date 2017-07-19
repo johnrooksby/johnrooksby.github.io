@@ -1,11 +1,9 @@
-
-
-var publication = [
+[
 					
 					{"title": "Quantified data and social relationships", 
 					 "author": "Chris Elsden, Paul Marshall, Aisling O’Kane, Abigail C. Durrant, Rowanne Fleck, John Rooksby, Deborah Lupton.",
 					 "year" : "2017", 
-					 "pdfLink" : "http://johnrooksby.org/papers/CHI2017_elsden.pdf", 
+					 "pdfLink" : "doc.pdf", 
 					 "proc" : "Quantified Data & Social Relationships. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). ACM, New York, NY, USA, 644-651. DOI: https://doi.org/10.1145/3027063.3027065",
 					 "abstract" : "This one-day workshop will encourage the emergence of more critical and socially oriented perspectives to a data-driven life. We adopt a focus on how data mediates relationships – personal, professional, across social networks and cross-culturally – to consider the social and cultural implications of quantified lifestyles. At the workshop, attendees will engage in panel discussions, and a series of ‘speed-dates’ to develop a catalogue of compelling relationships with data, which exemplify the social nature of personal informatics tools, and the opportunities and challenges for design.",
 					 "publisherLink" : "http://dl.acm.org/citation.cfm?id=3027065&CFID=651578370&CFTOKEN=75023293", 
@@ -74,10 +72,8 @@ var publication = [
 					{"title": "Deployment of an App for Self Monitoring and Social Support within a Health Promotion Programme.", 
 					 "author": "John Rooksby, Mattias Rost, Doudou Tang, Matthew Chalmers ",
 					 "year" : "2016", 
-					 "proc" : "Paper presented at Workshop on Interactive Systems in Healthcare (WISH), May 7th 2016, San Jose, CA.",
- 					 "abstract" : "This paper describes work-in-progress on the deployment of MatchFIT, an app for enabling self- monitoring and on-going social support for people that have participated in a healthy living programme called EuroFIT. The app is currently in use by approximately 250 people in 15 locations across three countries. It will be launched in a fourth country shortly and based upon the lessons learned will be redesigned for a second round of the EuroFIT programme in late 2016. This paper discusses the design challenges we have encountered and issues in redesign.",
- 					 "pdfLink" : "http://johnrooksby.org/papers/WISH2016_rooksby.pdf"
-
+					 "proc" : "Poster presented at Workshop on Interactive Systems in Healthcare (WISH), May 7th 2016, San Jose, CA.",
+ 					 "abstract" : ""
  					},
 
  					{"title": "Investigating how users engage with a pedometer app", 
@@ -180,8 +176,8 @@ var publication = [
 					 "author": "Rooksby J",
 					 "year" : "2014", 
 					 "pdfLink" : "http://johnrooksby.org/papers/CSCW2014_rooksby_replicated.pdf", 
-					 "proc" : "In: Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing (CSCW 2014). 603-614.",
- 					 "abstract" : "This paper discusses a repetition of a study presented in Suchman’s book Plans and Situated Actions. There have been complaints about the lack of replication studies in disciplines related to CSCW (particularly Software Engineering and HCI). However, these complaints often become embedded in wider attempts to install a principled scientific method within these disciplines. Plans and Situated Actions was not a scientific text but drew upon naturalistic analysis. This paper shows there is value in recreating Plans and Situated Actions, and argues it would be helpful to recreate other studies. However, such repetition does not and need not constitute a scientific replication. The paper argues that while repetition and reanalysis may improve rigour in computing research, this need not be with a view to making it more scientific. "
+					 "proc" : "n: Proceedings of the 17th ACM conference on Computer supported cooperative work & social computing (CSCW 2014). 603-614.",
+ 					 "abstract" : ""
  					},
 
  					{"title": "Practices of Parallel Media: Using Mobile Devices When Watching Television", 
@@ -189,7 +185,7 @@ var publication = [
 					 "year" : "2014", 
 					 "pdfLink" : "http://johnrooksby.org/papers/DomesticWorkshop2013_rooksby.pdf", 
 					 "proc" : "Designing with Users for Domestic Environments (Workshop at CSCW 2014), Feb 15th 2014, Baltimore.",
- 					 "abstract" : "We have been studying how people use mobile phones and laptops while watching television. Our results show that these are not necessarily used to access content that is related to what is being watched. However, this is not to say devices are being used in isolation from their surrounds; their use is interwoven with watching television and with interacting with other people. We suggest that designing for ‘the connected home’ is more than an integration project, and should take account of the social fabric of domestic life. "
+ 					 "abstract" : ""
  					},
 
  					{"title": "Interview and Observation for Mobile App Development.", 
@@ -197,7 +193,7 @@ var publication = [
 					 "year" : "2013", 
 					 "pdfLink" : "http://johnrooksby.org/papers/largeWorkshop2013_rooksby.pdf", 
 					 "proc" : "Informing Future Design via Large-Scale Research Methods and Big Data (Workshop at Mobile HCI 2013), August 27th 2013, Munich.",
- 					 "abstract" : "This position paper discusses how user feedback, particularly from interviews and observations, can be used to inform mobile app development. I argue that it is feasible to “scale up” such methods in order to help designers gain insight into large-scale deployments. The paper points to some technical approaches that may help in achieving this. The paper ends by arguing that scaling up field methods branches them away from ethnography. Ethnography has traditionally discussed scale in orthogonal ways to computer science. "
+ 					 "abstract" : ""
  					},
 
  					{"title": "Experiences in Logging Everyday App Use.", 
@@ -343,63 +339,3 @@ var publication = [
  					},
 
 ]
-
-
-
-
-$(function() {
-
-
-	var HTML      = "<div class=\"row\">" +
-					  "<div class=\"col-md-9 col-md-offset-0\">" +
-					    "<p> <div id=\"publicationText\">No Title</div> </p> " +
-					  "</div>" +
-					  "<div class=\"col-md-2 col-md-offset-0\">" +
-					    "<p> <button type=\"button\" class=\"btn btn-default\" data-toggle=\"collapse\" data-target=\"#abstractArea\">info <i class=\"fa fa-arrow-down fa-fw\"></i> </button> </p>" +
-					  "</div>" +
-					"</div>" +
-	  				"<div class=\"row\">" + 
-	  				  "<div class=\"col-md-8 col-md-offset-1\">" + 
-	  				    "<div id=\"abstractArea\" class=\"collapse\"> " + 
-	  				      "<div id=\"abstract\">No Abstract</div>" + 
-	  				      "<div id=\"labels\"></div>" +
-  						"</div>"+
-  					  "</div>" + 
-  					"</div>";
-  	var myDiv = "";
-  	var labels = "";
-  	var pdfLink = "";
-
-
-	$( publication ).each( function (index, item) {
-
-		/* create a unique container div per publication */
-		myDiv = "publication" + index;
-		$(".publications").append("<div id=\"" + myDiv + "\">" + HTML + "</div>");
-
-		/* create a unique abstract area to target with the btn */
-		myAbstractDiv = "abstractArea" + index;
- 		$("#publication" + index).find("#abstractArea").attr("id", myAbstractDiv);
- 		$("#publication" + index).find(".btn").attr("data-target", "#"+myAbstractDiv);
-
-		/* if there are links and labels to put in */
-		labels = "";
-		pdfLink = "";
-		if ('pdfLink' in item) { 
-			pdfLink = item.pdfLink;
-			labels = labels + "<a href=\"" + pdfLink + "\"><span class=\"label label-success\">view pdf</span></a> ";
-		} 
-		if ('publisherLink' in item) { 
-			labels = labels + "<a href=\"" + item.publisherLink + "\"><span class=\"label label-info\">publisher site</span></a>";
-		}
-
-		/* customise the generic HTML using publication data */
- 		$("#publication" + index).find("#publicationText").html(item.author + " (" + item.year + ") <a href =\"" + pdfLink + "\">" + item.title + "</a> " + item.proc);
- 		$("#publication" + index).find("#abstract").html(item.abstract);
- 		$("#publication" + index).find("#labels").html(labels);
-
-
-		}
-	)
-
-});   
