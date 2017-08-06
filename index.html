@@ -31,6 +31,9 @@
  <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300,200,100' rel='stylesheet' type='text/css'>
  <link rel="icon" type="image/png" href="me2.png">
 
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script src="app.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -61,9 +64,9 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.html"><i class="fa fa-home fa-fw"><br><span style="font-size:10px; line-height:8px">home</span></i></a></li>
-              <li><a href="projects.html"><i class="fa fa-laptop fa-fw"><br><span style="font-size:10px; line-height:8px">projects</span></i></a></li>
+              <!-- <li><a href="projects.html"><i class="fa fa-laptop fa-fw"><br><span style="font-size:10px; line-height:8px">projects</span></i></a></li>
  
-              <li><a href="publications.html"><i class="fa fa-graduation-cap fa-fw"><br><span style="font-size:10px; line-height:8px">papers</span></i></a></li>
+              <li><a href="publications.html"><i class="fa fa-graduation-cap fa-fw"><br><span style="font-size:10px; line-height:8px">papers</span></i></a></li> -->
             </ul> 
             <ul class="nav navbar-nav navbar-right">
               <li><a href="https://medium.com/@johnrooksby"><i class="fa fa-comment fa-fw"><br><span style="font-size:10px; line-height:8px">blog</span></i></a></li>
@@ -83,12 +86,11 @@
           <img src="me.png" class="img-responsive profile" alt="John Rooksby">
         </div>
         <div class="col-md-9 col-md-offset-0">
+
           <p>
             Hello, I'm a researcher and developer working in the areas of Human Computer Interaction, User Experience Design and Software Engineering. I have a PhD in Computer Science from the University and Manchester and have held fellowship/associate positions at the University of Glasgow, University of St Andrews and Lancaster Unversity. 
           </p>
-          <p>
-            On this site you can see some of my <a href="projects.html">recent projects</a>. You can also access my academic <a href="publications.html">publications</a>. Below is a link to my posts on medium.        
-          </p>
+         
           <p>
             <a href="https://medium.com/@johnrooksby" class="btn btn-success" role="button"><i class="fa fa-comment fa-fw"></i> Read my blog</a>
           </p>
@@ -100,6 +102,141 @@
     <!-- </div> -->
   </div>
   
+  <div class = "layer">
+
+    <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-md-12 col-md-offset-0">
+          <h2>Projects</h2>
+
+          <p>
+            Below are details of some of my recent projects. This is mainly work I conducted at the Universty of Glasgow.
+          </p>
+        </div>
+      </div> <!-- /row -->
+ <!--      <div class="row">
+        <div class="col-md-6 col-md-offset-0">
+          <h3>UX for mHealth</h3>
+          
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y12u0dOv-Po"></iframe>
+          </div>
+          <p>
+            <b>UX for mHealth</b>: In 2015/16 I led the SICSA Research Challenge <a href="http://www.datascienceforhealth.com/ux4mhealth">UX for mHealth</a>. This project was funded by SICSA (Scottish Informatics and Computer Science Alliance). Two key events that I organised as part of the challenge were:
+            <ul>
+              <li><a href="http://www.datascienceforhealth.com/events/whatworks/">What Works in Digtal Health?</a> July 2015, Glasgow</li>
+              <li><a href="http://www.datascienceforhealth.com/events/screens/">Screens in interaction.</a> October 2015, Edinburgh</li>
+            </ul>
+          </p>
+
+
+        </div>
+        <div class="col-md-6 col-md-offset-0">
+          <h3>European Fans in Training (EuroFIT)</h3>
+          <p>
+            <b>EuroFIT</b>: I'm a researcher on an EU project called <a href="http://eurofitfp7.eu/">EuroFIT: Social innovation to improve physical activity and sedentary behaviour through elite European football</a>. My work as a part of this project focuses on the development and evaluation of fitness apps.
+          </p>
+           
+        </div>
+      </div> -->
+
+      <div class="row">
+        <div class="col-md-6 col-md-offset-0">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">UX for mHealth</h3>
+            </div>
+            <div class="panel-body">
+
+              <img src="img/wwdh_photo.png" class="img-responsive" alt="What Works in Digital Health workshop">
+              <p>
+                I was funded by SICSA (Scottish Informatics and Computer Science Alliance) to organise events on UX for mHealth during 2015/16. Two key events were What Works in Digtal Health? (July 2015, Glasgow) and Screens in interaction (October 2015, Edinburgh).
+              </p>
+             
+              <p><a href="projects/uxmhealth.html" class="btn btn-success" role="button">More</a></p>
+            </div>
+          </div>
+        </div>
+         <div class="col-md-6 col-md-offset-0">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">European Fans in Training (EuroFIT)</h3>
+            </div>
+            <div class="panel-body">
+              <img src="img/eurofit_logo.png" class="img-responsive" alt="EuroFIT logo">
+              <p>
+                Twenty million fans attend top division football games each week and many more watch on TV. Our social innovation is to attract people to lifestyle change through the personal connection and loyalty to the club they support. Our aim is to use this social innovation to change physical activity and sedentary behaviour, specially targeting low-SES groups, and men as well as women. EuroFIT is supported by UEFA and top football clubs. .
+              </p> 
+              <p><a href="projects/eurofit.html" class="btn btn-success" role="button">More</a></p>           
+            </div>
+          </div>
+        </div>
+       </div> <!-- /row -->
+
+      <div class="row">
+        <div class="col-md-6 col-md-offset-0">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Quped</h3>
+            </div>
+            <div class="panel-body">
+              <img src="img/quped_crop.png" class="img-responsive" alt="Quped app (cropped)">
+              <p>
+                Quped is a pedometer app for iOS. The app counts steps, sets personal goals and supports social comparison. The app has been designed to operationalise theories from behavioural change and to collect scientific quality data for researchers. 
+              </p> 
+              <p><a href="projects/quped.html" class="btn btn-success" role="button">More</a></p>  
+            </div>
+          </div>
+        </div>
+         <div class="col-md-6 col-md-offset-0">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">ScreenLife</h3>
+            </div>
+            <div class="panel-body">
+              <img src="img/screenlife_crop.png" class="img-responsive" alt="ScreenLife app (cropped)">
+              <p>
+                Screenlife was a cross platform application for quantifying day to day screen time on laptops, tablets and smartphones.
+              </p> 
+              <p><a href="projects/screenlife.html" class="btn btn-success" role="button">More</a></p>              
+            </div>
+          </div>
+        </div>
+       </div> <!-- /row -->
+
+       <div class="row">
+         <div class="col-md-6 col-md-offset-0">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">More stuff</h3>
+            </div>
+            <div class="panel-body">
+              More stuff here...
+            </div>
+          </div>
+        </div>
+       </div> <!-- /row -->
+
+
+    
+
+  </div>
+
+
+    <div class ="layer">
+
+        <div class="row">
+          <div class="col-md-12 col-md-offset-0">
+            <h2>Publications</h2>
+            <!--<h3>2017</h3>-->
+          </div>
+        </div>
+
+
+        <div class="publications"></div>
+
+    </div>
+
 
       <footer>
             <div class="row">
