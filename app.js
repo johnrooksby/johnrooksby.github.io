@@ -4,10 +4,10 @@ var publication = [
 					{"title": "Synchronous Text Messaging: A Field Trial of Curtains Messenger.", 
 					 "author": "Martin Podlubny, John Rooksby, Mattias Rost, and Matthew Chalmers.",
 					 "year" : "2017", 
-					 "pdfLink" : "", 
+					 "pdfLink" : "http://johnrooksby.org/papers/PACMHCI-2018-rooksby.pdf", 
 					 "proc" : "Proc. ACM Hum.-Comput. Interact. 1, 2, Article 86 (November 2017), 20 pages. https://doi.org/10.1145/3134721",
 					 "abstract" : "We have created and evaluated a novel mobile messaging app named Curtains Messenger. The app has been designed to support synchrony in messaging. It does this by requiring users to be in the app at the same time as each other in order to send, receive and read messages. This design is contrary to typical apps where messages can be sent and read asynchronously at an individual’s convenience. We have conducted a  eld trial in which 15 users installed the app on their own devices and used it in the wild. We present a qualitative analysis of interviews with the participants following the trial. The  ndings address how the app was used, how synchrony a ected conversational  ows, how synchrony raised issues of attention and intimacy, and what issues users faced in the practical work of conducting synchronous messaging. This work demonstrates how core concepts in the study of cooperative work such as a/synchrony can be drawn upon to reconsider taken-for-granted design features of mobile applications and the lived experience of communication.",
-					 "publisherLink" : "", 
+					 "publisherLink" : "https://dl.acm.org/citation.cfm?doid=3171581.3134721", 
 					},
 
 					{"title": "The intervention process in the European Fans in Training (EuroFIT) trial: a mixed method protocol for evaluation", 
