@@ -33,9 +33,9 @@ var publication = [
 					 "author": "John Rooksby, Alistair Morrison, and Dave Murray-Rust.",
 					 "year" : "2019", 
 					 "pdfLink" : "http://johnrooksby.org/papers/CHI2019_rooksby_phenotyping.pdf", 
-					 "proc" : "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Accepted for publication)",
+					 "proc" : "In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19). ACM, New York, NY, USA, Paper 425, 14 pages. DOI: https://doi.org/10.1145/3290605.330065",
 					 "abstract" : "There is a mental health crisis facing universities internationally. A growing body of interdisciplinary research has successfully demonstrated that using sensor and interaction data from students’ smartphones can give insight into stress, depression, mood, suicide risk and more. The approach, which is sometimes termed Digital Phenotyping, has potential to transform how mental health and wellbeing can be monitored and understood. The approach could also transform how interventions are designed, delivered and evaluated. To date, little work has addressed the human and ethical side of digital phenotyping, including how students feel about being monitored. In this paper we report findings from in-depth focus groups, prototyping and interviews with students. We find they are positive about mental health technology, but also that there are multi-layered issues to address if digital phenotyping is to become acceptable. Using an acceptability framework, we set out the key design challenges that need to be addressed.",
-					 "publisherLink" : "", 
+					 "publisherLink" : "https://dl.acm.org/citation.cfm?id=3300655", 
 					},
 
 					{"title": "Evaluating the Impact of Physical Activity Apps and Wearables: Interdisciplinary Review", 
