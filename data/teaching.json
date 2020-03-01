@@ -1,0 +1,19 @@
+{
+	"data" : [
+		{
+	 		"title":"KF6012 Web Application Integration",
+	 		"text" : "Final year web development module covering OO-PHP, SQLite, AngularJS, ES6",
+	 		"link": "https://www.northumbria.ac.uk/study-at-northumbria/courses/computer-science-with-web-development-uuscsc3wed/modules/kf6012-web-application-integration/"
+	 	},
+	 	{
+	 		"title":"KF5002 Web Programming",
+	 		"text":"Second year web development module covering PHP, MySQL, JavaScript, AJAX",
+	 		"link": "https://www.northumbria.ac.uk/study-at-northumbria/courses/computer-science-with-web-development-uuscsc3wed/modules/kf5002-web-programming/"
+	 	},
+	 	{
+	 		"title":"KF4009 Web Tech",
+	 		"text":"First year web development module covering HTML5, CSS3, PHP, SQL, MySQL",
+	 		"link": "https://www.northumbria.ac.uk/study-at-northumbria/courses/computer-science-with-web-development-uuscsc3wed/modules/kf4009-web-technology/"
+	 	}
+	 ]
+}

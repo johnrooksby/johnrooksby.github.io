@@ -1,0 +1,77 @@
+{
+	"data" : [
+		{
+	 		"title":"Football Fans and Betting (FFAB): a feasibility study and randomised pilot trial of a group-based intervention to reduce gambling involvement among male football fans",
+	 		"funder" : "NIHR",
+	 		"link" : "https://www.fundingawards.nihr.ac.uk/award/NIHR127665",
+	 		"role" : "Co-Investigator",
+	 		"years" : "2020-2022",
+	 		"img" : {"src" : "projectImg/footballnet-travis-jones-unsplash-cropped.png", "alt" : "football net"},
+	 		"category" : "Funded research"
+	 	},
+	 	{
+	 		"title":"A Mobile Application Co-designed by Football Fans to Promote Physical Activity And Active Travel Specifically Among Middle Age Men",
+	 		"link" : "https://getamoveon.ac.uk/funded-projects/a-mobile-application-co-designed-by-football-fans-to-promote-physical-activity-and-active-travel-specifically-among-middle-aged-men",
+	 		"funder" : "EPSRC GetAMoveOn Network+",
+	 		"role" : "Principle Investigator",
+	 		"years" : "2018-2019",
+	 		"img" : {"src" : "projectImg/wos-app.jpg", "alt" : "sketch of WoS App"},
+	 		"category" : "Funded research"
+
+	 	},
+		{
+	 		"title":"Asteria",
+	 		"img" : {"src": "projectImg/asteria.png", "alt" : "asteria game character standing on ledge"},
+	 		"text" : "Browser-based platform game made for Global Game Jam 2020 at Northumbria University. Made with PhaserJS",
+	 		"link" : "https://globalgamejam.org/2020/games/ast%C3%A9ria-9",
+	 		"category" : "Game"
+	 	},
+	 	{
+	 		"title":"TV Arial Simulator",
+	 		"img" : {"src": "projectImg/tv_aerial_simulator.png", "alt" : "TV arial simulator game screenshot and players"},
+	 		"text" : "A VR game made for Global Game Jam 2019 at Northumbria University. Made with Unity.",
+	 		"link" : "https://globalgamejam.org/2019/games/tv-aerial-simulator",
+	 		"category" : "Game"
+	 	},
+	 	{
+	 		"title":"Active Minds",
+	 		"img" : {"src": "projectImg/gamo.png", "alt" : "Get A Move On Network logo"},
+	 		"text" : "An interdisciplinary digital health workshop at Glasgow Queen Elizabeth Research Center",
+	 		"link" : "http://activeminds.xyz/workshop2018/index.html",
+	 		"category" : "Funded event",
+	 		"role" : "Co-organiser",
+	 		"years" : "2018",
+	 		"funder": "EPSRC Get A Move On Network+"
+	 	},
+
+	 	{
+	 		"title":"Social innovation to improve physical activity and sedentary behaviour through elite European football clubs: European Fans in Training.(EuroFIT)",
+	 		"img" : {"src": "projectImg/eurofit_logo.png", "alt" : "TV ariel simulator game screenshot and players"},
+	 		"link" : "http://activeminds.xyz/workshop2018/index.html",
+	 		"years" : "2013-2018",
+	 		"role" : "Researcher",
+	 		"category" : "Research project"
+	 		
+	 	},
+	 	{
+	 		"title":"A populations approach to ubicomp systems design",
+	 		"img" : {"src": "projectImg/screenlife_crop.png", "alt" : "Cropped screenshot from ScreenLife software"},
+	 		"role" : "Researcher",
+	 		"years" : "2012-2017",
+	 		"link" : "http://softwarepopulations.com/",
+	 		"category" : "Research project"
+	 	},
+
+		{
+	 		"title":"UX for mHealth",
+	 		"img" : {"src": "projectImg/wwdh_photo.png", "alt" : "People at What Works in Digital Health? workshop"},
+	 		"text" : "Funding to run workshops and research community events.",
+	 		"link" : "https://blog.johnrooksby.org/post/125089368687/workshop-what-works-in-digital-health",
+	 		"category" : "Funded network",
+	 		"role" : "Principle Investigator",
+	 		"years" : "2015",
+	 		"funder" : "SICSA"
+	 	}
+	 	
+	 ]
+}
