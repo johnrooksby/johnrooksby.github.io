@@ -1,9 +1,17 @@
 { "data" : [
 
+	{"title": "Trustless education? A blockchain system for University Grades", 
+	 "author": "John Rooksby, Kristiyan Dimitrov.",
+	 "year" : "2020", 
+	 "proc" : "Ubiquity: The Journal of Pervasive Media, Volume 6, Number 1, November 2019, pp. 83-88(6)",
+	 "abstract" : "We have implemented a blockchain system based on Ethereum for use by a university to store student grades and to provide a cryptocurrency. Based upon an exploratory, qualitative evaluation we have found several tensions between the concept of a university as an organization and the concept of distributed autonomous organizations (DAOs) in Ethereum. These include tensions in (i) mechanisms of trust, (ii) boundaries of openness and (iii) values in procedures. In this article we outline our implementation and the evaluation process.",
+	 "publisherLink" : "https://doi.org/10.1386/ubiq_00010_1"
+	},
+
 	{"title": "An N-of-1 Evaluation Framework for Behaviour Change Applications", 
 	 "author": "Claire McCallum, John Rooksby, Parvin Asadzaeh, Cindy Gray, Matthew Chalmers.",
 	 "year" : "2019", 
-	 "proc" : "An N-of-1 Evaluation Framework for Behaviour Change Applications. In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA '19). ACM, New York, NY, USA, Paper LBW1810, 6 pages. DOI: https://doi.org/10.1145/3290607.3312923",
+	 "proc" : "In Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems (CHI EA '19). ACM, New York, NY, USA, Paper LBW1810, 6 pages. DOI: https://doi.org/10.1145/3290607.3312923",
 	 "abstract" : "Mobile behaviour change applications should be evaluated for their effectiveness in promoting the intended behavior changes. In this paper we argue that the gold standard form of effectiveness evaluation, the randomised controlled trial, has shortcomings when applied to mobile applications. We propose that N-of-1 (also known as single case design) based approaches have advantages. There is currently a lack of guidance for researchers and developers on how to take this approach. We present a framework encompassing three phases and two related checklists for performing N-of-1 evaluations. We also present our analysis of using this framework in the development and deployment of an app that encourages people to walk more. Our key findings are that there are challenges in designing engaging apps that automate N-of-1 procedures, and that there are challenges in collecting sufficient data of good quality. Further research should address these challenges.",
 	 "publisherLink" : "https://dl.acm.org/citation.cfm?id=3312923"
 	},
