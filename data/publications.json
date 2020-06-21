@@ -3,7 +3,7 @@
 	{"title": "Design Opportunities for Digital Men’s Health: An Exploratory Study Focusing on Football Fandom", 
 	 "author": "John Rooksby, Marta E. Cecchinato, Parvin Asadzadeh, Matthew Philpott, Christopher Bunn",
 	 "year" : "2020", 
-	 "proc" : "In Proceedings of DIS ’20, July 6–10, 2020, Eindhoven, Netherlands.",
+	 "proc" : "In Proceedings of DIS ’20, July 6–10, 2020, Eindhoven, Netherlands. DOI: http://dx.doi.org/10.1145/3357236.3395458",
 	 "abstract" : "Many men stop exercising as they age, engage in risky be- haviours such as alcohol misuse, are reluctant to admit to mental health problems, and avoid seeking help. Men are generally hard to reach for community health interventions. However, interventions run at football clubs have successfully engaged men and have led to positive health outcomes. Mobile health technology might similarly be designed to engage and encourage men via connections with football. This technology could be used to augment and extend community programs, or be used to target global fan bases. However, it is not clear if and how what attracts men to community interventions can translate to technology. In this paper we report a design study with 18 middle-age male participants exploring what men find important in football, and connections between football, health and technology. We present five design opportunities to guide and prompt further innovation in this area.",
 	 "publisherLink" : "http://dx.doi.org/10.1145/3357236.3395458",
 	 "pdfLink": "http://johnrooksby.org/papers/dis2020_rooksby.pdf"
