@@ -1,15 +1,15 @@
 { "data" : [
 
 
-	{"title": "Four Representations of Money in Online Gambling", 
-	 "author": "John Rooksby, John Rooksby, Matthew Higgs, Jason Moore, Sylwia Krupa, Claire McCallum",
+	{"title": "Four Representations of Money in Online Gambling.", 
+	 "author": "John Rooksby, Matthew Higgs, Jason Moore, Sylwia Krupa, Claire McCallum",
 	 "year" : "2020", 
 	 "proc" : "Paper presented at Designing Futures of Money and FinTech, Workshop at DIS ’20, July 7-8, 2020, Eindhoven, Netherlands.",
 	 "abstract" : "There is a growing body of work on the design of digital payments systems and virtual currencies, but the design and functionality of gambling technologies has seen little critical attention. In this paper we will draw upon examples from mobile gambling applications to discuss four representations of money/: 'real money', 'winnings', 'deposits', and 'fun'. We will explore how these representations are invoked and tied with regulation, ideas of safety, responsibility, financial value, emotional value, and transactional processes. We will argue that further work should not just focus on the situated practices of gambling, but also the design work seeking to define, enable and constrain gambling practices.",
 	 "pdfLink": "http://johnrooksby.org/papers/dis2020_gambling_rooksby.pdf"
 	},
 
-	{"title": "Design Opportunities for Digital Men’s Health: An Exploratory Study Focusing on Football Fandom", 
+	{"title": "Design Opportunities for Digital Men’s Health: An Exploratory Study Focusing on Football Fandom.", 
 	 "author": "John Rooksby, Marta E. Cecchinato, Parvin Asadzadeh, Matthew Philpott, Christopher Bunn",
 	 "year" : "2020", 
 	 "proc" : "In Proceedings of DIS ’20, July 6–10, 2020, Eindhoven, Netherlands. DOI: http://dx.doi.org/10.1145/3357236.3395458",
